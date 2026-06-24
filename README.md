@@ -43,7 +43,8 @@ cd ig-premium-checker-
 ```
 Install the required network communication library using pip:
 ```bash
-pip install requests
+pip install -r requirements.txt
+
 ```
 Execute the program directly from your command line interface:
 ```bash

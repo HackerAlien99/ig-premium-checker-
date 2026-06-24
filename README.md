@@ -10,6 +10,7 @@ A multi-threaded Python utility designed to check the availability of short, pre
 
 ### Configuration
 Before running the script, create a file named config.txt in the same directory as checker.py. Use the following template to supply your target metrics, webhook credentials, and proxy list:
+```bash
 DISCORD_WEBHOOK=https://discord.com/api/webhooks/your_webhook_url
 TELEGRAM_BOT_TOKEN=123456789:ABCdefYourBotToken
 TELEGRAM_CHAT_ID=987654321
@@ -17,6 +18,7 @@ TARGET=20
 PROXIES=
 http://username:password@ip:port
 socks5://username:password@ip2:port2
+```
 Configuration Rules:
  If you do not wish to use Discord or Telegram notification pipelines, leave those variable values completely blank.
  Add your proxy list line-by-line directly beneath the PROXIES= marker line.

@@ -1,0 +1,8 @@
+DISCORD_WEBHOOK=[https://discord.com/api/webhooks/your_webhook_url](https://discord.com/api/webhooks/your_webhook_url)
+TELEGRAM_BOT_TOKEN=123456789:ABCdefYourBotToken
+TELEGRAM_CHAT_ID=987654321
+TARGET=20
+
+PROXIES=
+http://username:password@ip:port
+socks5://username:password@ip2:port2

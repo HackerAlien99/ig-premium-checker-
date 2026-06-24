@@ -8,6 +8,21 @@ A multi-threaded Python utility designed to check the availability of short, pre
 * Direct configuration via a single local text file.
 * Real-time notifications sent to Discord and Telegram channels.
 
+### Configuration
+Before running the script, create a file named config.txt in the same directory as checker.py. Use the following template to supply your target metrics, webhook credentials, and proxy list:
+DISCORD_WEBHOOK=https://discord.com/api/webhooks/your_webhook_url
+TELEGRAM_BOT_TOKEN=123456789:ABCdefYourBotToken
+TELEGRAM_CHAT_ID=987654321
+TARGET=20
+PROXIES=
+http://username:password@ip:port
+socks5://username:password@ip2:port2
+Configuration Rules:
+ If you do not wish to use Discord or Telegram notification pipelines, leave those variable values completely blank.
+ Add your proxy list line-by-line directly beneath the PROXIES= marker line.
+ Every proxy listed must include the protocol prefix (http://, https://, socks4://, or socks5://) to be properly injected into memory.
+
+
 ## Installation
 
 ### Prerequisites
@@ -17,8 +32,9 @@ python --version
 ```
 Clone this repository to your local machine using Git:
 ```bash
-git clone [https://github.com/HackerAlien99/ig-premium-checker-.git](https://github.com/HackerAlien99/ig-premium-checker-.git)```
+git clone https://github.com/HackerAlien99/ig-premium-checker-.git
 
+```
 Change into the project directory:
 ```bash
 cd ig-premium-checker-

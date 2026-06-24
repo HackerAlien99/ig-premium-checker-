@@ -1,6 +1,6 @@
-DISCORD_WEBHOOK=[https://discord.com/api/webhooks/your_webhook_url](https://discord.com/api/webhooks/your_webhook_url)
-TELEGRAM_BOT_TOKEN=123456789:ABCdefYourBotToken
-TELEGRAM_CHAT_ID=987654321
+DISCORD_WEBHOOK=your_discord_webhook_url
+TELEGRAM_BOT_TOKEN=your_bot_token_here
+TELEGRAM_CHAT_ID=your_chat_id_here
 TARGET=20
 
 PROXIES=
